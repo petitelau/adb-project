@@ -16,6 +16,8 @@
         ok.push(false);
     }
     const equals = (a, b, message="") => {
+        if (a=='') a= undefined;
+        if (b=='') b= undefined;
         if (a === b) {
             ok.push(true);
             msg.push('ok');

@@ -36,7 +36,7 @@ test("roman-number",  assert =>  {
                     v.updateHtml(data);
                     assert.equals(result.textContent, t.roman);
                     if (t.num == 0)
-                        assert.equals(resultLabel.textContent, 'Number can not be converted')
+                        assert.equals(resultLabel.textContent, 'Only a number between 1 and 255 allowed');
 
                     //console.log({expected: t.roman, got: data.romanNumber});
                     collect.push({expected: t.roman, got: data.romanNumber});
