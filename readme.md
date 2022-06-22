@@ -13,19 +13,19 @@ You can access on the browser http://localhost:8080
 This application converts an integer into a roman numeral entirely written on 
 javascript , for the backend  NodeJs and frontend web browser
 
------backend / frontend ---------
+backend / frontend
 Based on NodeJs and Express as Server running on 8080 port by default
 Front-end used handlebar (npm- hbs) as html / CSS and javascript
----------------------------------
 
----- tests ----------------------
+
+ tests 
 Self made Test framework, running via URL http://localhost:8080/tests
---------------------------------
+
 
 frontend -- backend
 EndPoint fetch http://localhost:8080/romannumeral?query={integer}
 
------front-end ---------------
+front-end
 /public
         /css
         /img
@@ -35,7 +35,7 @@ EndPoint fetch http://localhost:8080/romannumeral?query={integer}
         /partials
         /views
 
--------backend -------------
+backend 
 /src
         /config
         /middlewears
@@ -44,7 +44,7 @@ EndPoint fetch http://localhost:8080/romannumeral?query={integer}
    app.js 
    server.js 
 
-----root folder ----
+root folder 
 package.json
 package-lock.json
 readme.txt
