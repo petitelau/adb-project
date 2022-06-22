@@ -5,7 +5,7 @@ Download from https://nodejs.org/en/
 Download all folder roman-numerals.
 
 On the terminal : (same folder where is package.json)
- npm install
+ npm install and then 
  npm run start
 
 You can access on the browser http://localhost:8080
