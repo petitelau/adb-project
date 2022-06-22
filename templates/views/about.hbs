@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About</title>
+    <link rel='stylesheet' href='/css/styles.css'>
+</head>
+
+<body>
+    <div class="main-content text-content">
+        <h1 id="title" class="go-title">{{title}}</h1>
+        {{>header}}
+        <h2>About </h2>
+
+        <div class="about-content">
+            <p>
+                This application converts an integer into a roman numeral entirely written on
+                javascript , for the backend NodeJs and frontend web browser
+            </p>
+            <br /><br />
+            <p>
+                -----backend / frontend ---------<br />
+                Based on NodeJs and Express as Server running on 8080 port by default<br />
+                Front-end used handlebar (npm- hbs) as html / CSS and javascript<br />
+                ---------------------------------
+            </p>
+            <br /><br />
+            <p>
+                ---- tests ----------------------<br />
+                Self made Test framework, running via URL http://localhost:8080/tests<br />
+                --------------------------------<br />
+            </p>
+            <br /><br />
+            <p>
+                frontend to backend <br />
+                EndPoint fetch http://localhost:8080/romannumeral?query={integer}
+
+            </p>
+            <br /><br />
+            <p>
+                -----front-end ---------------<br />
+                /public<br />
+                &nbsp;&nbsp;/css<br />
+                &nbsp;&nbsp;/img<br />
+                &nbsp;&nbsp;/js<br />
+                &nbsp;&nbsp;/tests<br />
+                /templates ---- for hbs <br />
+                &nbsp;&nbsp;/partials<br />
+                &nbsp;&nbsp;/views<br />
+
+                -------backend -------------<br />
+                /src<br />
+                &nbsp;&nbsp;/config<br />
+                &nbsp;&nbsp;/middlewears<br />
+                &nbsp;&nbsp;/routers<br />
+                &nbsp;&nbsp;/services<br />
+                &nbsp;&nbsp;app.js<br />
+                &nbsp;&nbsp;server.js<br />
+
+                ----root folder ----<br />
+                package.json<br />
+                package-lock.json<br />
+                readme.txt<br />
+            </p>
+
+            <br /><br />
+            <p>
+                Npm packages<br />
+                "chalk": "^4.0.0",<br />
+                "express": "^4.17.2",<br />
+                "hbs": "^4.2.0",<br />
+                "log4js": "^6.3.0",<br />
+                "path": "^0.12.7",<br />
+                "path-parse": "^1.0.7",<br />
+                "yargs": "^17.3.1"<br />
+            </p>
+
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
