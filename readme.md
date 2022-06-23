@@ -2,7 +2,7 @@ GET STARTED
 You'll need to have installed on your computer NodeJs.
 Download from https://nodejs.org/en/
 
-Download all folder roman-numerals.
+Download all and unzip
 
 On the terminal : (same folder where is package.json)
 
@@ -10,7 +10,7 @@ On the terminal : (same folder where is package.json)
  #npm install   
 
  #npm run start 
- 
+
 
 You can access on the browser http://localhost:8080
 
